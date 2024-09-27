@@ -1,0 +1,48 @@
+/* login.module.css */
+
+  .login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .heading {
+    color: #003366; /* Company's blue */
+    text-align: center;
+  }
+  
+  /* Form style */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input style */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button style */
+  .button {
+    background-color: #003366; /* Company's blue */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Error message style */
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
