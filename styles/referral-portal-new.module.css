@@ -1,0 +1,118 @@
+/* referral-portal.module.css */
+
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .navbar {
+    background-color: #003366; /* Navbar background */
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    float: right;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .rolesTable,
+  .candidatesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .rolesTable th,
+  .candidatesTable th,
+  .rolesTable td,
+  .candidatesTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .rolesTable th,
+  .candidatesTable th {
+    background-color: #eaeaea; /* Header background color */
+  }
+  
+  .referralForm {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .referralForm label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .referralForm input,
+  .referralForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .applyButton {
+    background-color: #003366; /* Company's blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .applyButton:hover {
+    background-color: #002244; /* Slightly darker on hover */
+  }
+  
+  /* Modal Styles */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .modalButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  

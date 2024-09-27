@@ -5,7 +5,7 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    router.push('/login'); // Redirect to login page
+    router.push('/login-new'); // Redirect to login page
   }, []);
 
   return null; // This page won't render anything because of the redirect

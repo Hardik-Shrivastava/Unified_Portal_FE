@@ -1,0 +1,126 @@
+/* General body styling */
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #003366; /* Bluish background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container for login */
+  .login-container {
+    background-color: white;
+    width: 50%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left side - portal title */
+  .login-left {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .login-left h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #003366;
+  }
+  
+  /* Right side - login form */
+  .login-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-right h2 {
+    margin: 0 0 10px;
+    color: #003366;
+  }
+  
+  .login-right input[type="text"],
+  .login-right input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-right input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-right input[type="submit"]:hover {
+    background-color: #002244;
+  }
+  
+  /* Dashboard Page */
+  .dashboard-container {
+    width: 100%;
+    padding: 30px;
+    background-color: #003366;
+    color: white;
+    height: 100vh;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 24px;
+  }
+  
+  .dashboard-header .profile-icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #003366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .dashboard-card {
+    background-color: white;
+    color: #003366;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .dashboard-card:hover {
+    transform: scale(1.05);
+  }
+  

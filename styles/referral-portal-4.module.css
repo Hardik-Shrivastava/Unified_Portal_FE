@@ -1,0 +1,138 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for the entire container */
+  }
+  
+  .navbar {
+    background-color: #003366; /* Dark blue background for navbar */
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .referralForm {
+    margin-bottom: 40px; /* Space between sections */
+  }
+  
+  .scrollableTable {
+    max-height: 200px; /* Adjust height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: add a border */
+    margin-bottom: 20px; /* Space between tables */
+  }
+  
+  .rolesTable, .candidatesTable {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+  }
+  
+  .rolesTable th, .candidatesTable th,
+  .rolesTable td, .candidatesTable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Add border for clarity */
+  }
+  
+  .rolesTable th, .candidatesTable th {
+    background-color: #f2f2f2; /* Light background for header */
+  }
+  
+  .addButton {
+    font-size: 30px; /* Size of the "+" icon */
+    cursor: pointer;
+    color: green; /* Color for the "+" icon */
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+  .popup {
+    position: fixed; /* Position the popup */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popupContent {
+    background-color: white; /* White background for popup */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners */
+    width: 400px; /* Fixed width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  .popup h2 {
+    margin-top: 0; /* Remove top margin */
+  }
+  
+  .popup label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+  }
+  
+  .popup input, .popup textarea {
+    width: 100%; /* Full width for inputs and textareas */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 10px; /* Space below inputs */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .popupButtons {
+    display: flex; /* Flex display for buttons */
+    justify-content: space-between; /* Space between buttons */
+  }
+  
+  .popupButtons button {
+    padding: 10px 15px; /* Padding for buttons */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor for buttons */
+  }
+  
+  .popupButtons button[type="submit"] {
+    background-color: #007bff; /* Primary color for submit button */
+    color: white; /* White text for submit button */
+  }
+  
+  .popupButtons button[type="button"] {
+    background-color: #ccc; /* Grey color for back button */
+  }
+  
+  .close {
+    cursor: pointer; /* Pointer cursor for close icon */
+    font-size: 24px; /* Size for close icon */
+    color: red; /* Red color for close icon */
+    position: absolute; /* Position it in the corner */
+    top: 10px;
+    right: 10px;
+  }
+  

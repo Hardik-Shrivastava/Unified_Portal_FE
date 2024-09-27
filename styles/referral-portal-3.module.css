@@ -1,0 +1,127 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #003366; /* Company's blue */
+    padding: 15px;
+    color: white;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .referralForm {
+    margin-top: 20px;
+  }
+  
+  .referralForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .referralForm input,
+  .referralForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .referralForm button {
+    background-color: #003366; /* Company's blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .referralForm button:hover {
+    background-color: #005799; /* Darker blue for hover */
+  }
+  
+  .rolesTable,
+  .candidatesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .rolesTable th,
+  .candidatesTable th,
+  .rolesTable td,
+  .candidatesTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .rolesTable th,
+  .candidatesTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .candidatesTable td div {
+    margin: 3px 0; /* Spacing between stages */
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  .popupContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px; /* Set a width for the pop-up */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .popupButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .addButton {
+    font-size: 30px; /* Size of the "+" icon */
+    cursor: pointer;
+    color: green; /* Color for the "+" icon */
+    background: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  

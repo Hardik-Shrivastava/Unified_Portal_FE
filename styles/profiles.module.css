@@ -1,0 +1,65 @@
+/* styles/profiles.module.css */
+
+.container {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background */
+    height: 100vh; /* Full height */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366; /* Navbar blue color */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+  }
+  
+  .backButton {
+    background-color: #003366; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .filters {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filters input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Full width for filters */
+  }
+  
+  .profilesList {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+  
+  .profileCard {
+    background-color: white; /* White background for profile cards */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 calc(30% - 20px); /* Responsive cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profileCard h3 {
+    margin: 0 0 10px;
+  }
+  
+  .profileCard p {
+    margin: 5px 0;
+  }
+  

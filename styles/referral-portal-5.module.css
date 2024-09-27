@@ -1,0 +1,135 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+
+  margin: 0 auto; /* Center the container */
+}
+
+.navbar {
+  background-color: #003366;
+  color: white;
+  padding: 15px; /* Increased padding for thickness */
+  margin-bottom: 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+  display: inline-block;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.scrollableTable {
+  max-height: 500px; /* Increased height for more rows */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.rolesTable, .candidatesTable {
+  width: 100%; /* Full width */
+  border-collapse: collapse;
+}
+
+.rolesTable th, .candidatesTable th,
+.rolesTable td, .candidatesTable td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.rolesTable th, .candidatesTable th {
+  background-color: #f2f2f2;
+}
+
+.addButton {
+  font-size: 30px;
+  cursor: pointer;
+  color: green;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupContent {
+  background-color: white;
+  padding: 40px; /* Increased padding for thicker sides */
+  border-radius: 10px;
+  width: 600px; /* Increased width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.popup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.popup input, .popup textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.popupButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popupButtons button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popupButtons button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.popupButtons button[type="button"] {
+  background-color: #ccc;
+}
+
+.close {
+  cursor: pointer;
+  font-size: 24px;
+  color: red;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

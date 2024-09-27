@@ -1,0 +1,146 @@
+/* Container styling */
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for the entire container */
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #003366; /* Dark blue background for navbar */
+    color: white;
+    padding: 15px; /* Increased padding for thicker navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar ul li.active {
+    font-weight: bold;
+    text-decoration: underline; /* Underline the active tab */
+  }
+  
+  /* Table styling */
+  .table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders between cells */
+    margin-bottom: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Add border for clarity */
+  }
+  
+  .table th {
+    background-color: #f2f2f2; /* Light background for header */
+    font-weight: bold;
+    white-space: nowrap; /* Prevent header text from wrapping */
+  }
+  
+  .table td {
+    vertical-align: top; /* Align the contents at the top for a uniform look */
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words if necessary */
+  }
+  
+  /* Align dropdowns in each row */
+  .table td select {
+    width: 180px; /* Fixed width for dropdowns to prevent misalignment */
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  /* Editable comment field */
+  .table td textarea {
+    width: 100%; /* Full width for the comments column */
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: vertical; /* Allow vertical resize for textarea */
+    min-height: 60px; /* Minimum height to avoid overlap */
+  }
+  
+  /* Table row hover effect */
+  .table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Interview stages styling */
+  .interviewStages div {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center; /* Align items in a single row */
+  }
+  
+  /* Fixed width for interview stages dropdowns to align properly */
+  .interviewStages select {
+    width: 180px; /* Ensure uniform dropdown width */
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-left: 10px; /* Add some space between label and dropdown */
+  }
+  
+  /* Align dropdown labels and dropdowns properly */
+  .interviewStages label {
+    white-space: nowrap;
+  }
+  
+  /* Comment box styling */
+  .comment-box {
+    margin-top: 10px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .table th, .table td {
+      padding: 8px;
+      min-width: 100px; /* Reduce min-width on smaller screens */
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar ul {
+      margin-top: 10px;
+    }
+  
+    .table td select {
+      width: 150px; /* Reduce dropdown width */
+    }
+  
+    .table td textarea {
+      width: 100%; /* Keep textarea full width, but ensure resizing behavior */
+      min-height: 50px; /* Set minimum height to avoid overlap */
+    }
+  }
+  

@@ -1,0 +1,165 @@
+.html, .body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Full height */
+    box-sizing: border-box; /* Apply box-sizing here */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for the entire page */
+    height: 100vh; /* Full height to fit the screen */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366; /* Navbar blue color */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+  }
+  
+  .profileNav {
+    display: flex;
+  }
+  
+  .navButton {
+    margin-right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .profileIcon {
+    background-color: white;
+    color: #003366; /* Adjusted to match the new blue */
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .profileContent {
+    display: flex;
+    margin-top: 20px;
+    flex-grow: 1; /* Allow the content to grow to fill the available space */
+  }
+  
+  .leftColumn {
+    flex: 1;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white; /* White background for left section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 400px; /* Minimum height */
+  }
+  
+  .rightColumn {
+    flex: 2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white; /* White background for right section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 400px; /* Minimum height */
+  }
+  
+  .uploadSection {
+    text-align: center;
+  }
+  
+  .profilePicturePlaceholder {
+    border: 2px dashed #003366; /* Dashed border for profile picture upload */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 120px; /* Set a fixed height for the profile picture section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #003366;
+  }
+  
+  .profilePictureLabel {
+    background-color: #003366; /* Adjusted to match the new blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .aboutMeSection {
+    margin-top: 20px;
+  }
+  
+  .aboutMeTextarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: inherit; /* Inherit font style */
+  }
+  
+  .uploadResumeSection {
+    margin-top: 20px;
+  }
+  
+  .uploadLabel {
+    background-color: #003366; /* Adjusted to match the new blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .inputField {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .updateButton {
+    background-color: #003366; /* Adjusted to match the new blue */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .updateButton:hover {
+    background-color: #002244; /* Darker shade on hover */
+  }
+  
+  /* Ensure optimal field sizes */
+  .inputField,
+  .aboutMeTextarea,
+  .uploadResumeSection {
+    height: 40px; /* Set optimal height for input fields */
+  }
+  
+  .uploadResumeSection {
+    height: 60px; /* Set optimal height for upload resume section */
+  }
+  
